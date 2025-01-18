@@ -1,15 +1,16 @@
 import * as React from "react"
 import "./intro.scss"
+import headshot from "../../img/pic.jpg"
 
-
+// TODO: Add a photo on the right side of the intro and icon on title
 const introData = {
   title: "Hello! ",
   beforeName: "I'm ",
-  name: "Kavin Varnan",
-  afterName: ", an expert in top-tier mobile/web app architecture & robust backend servers.",
+  name: "Aadya Agrawal,",
+  afterName: "and this is my home on the internet. ",
   contact: "Get in touch ",
-  email: "kavin@varnan.me",
-  mailTo: "mailto:kavin@varnan.me",
+  email: "aadyaa3@illinois.edu",
+  mailTo: "mailto:aadyaa3@illinois.edu",
 };
 const Intro = () => {
   const [isHovering, setIsHovering] = React.useState(false);
@@ -29,24 +30,31 @@ const Intro = () => {
     }, 1000);
   }, []);
 
-  return <header className="intro">
-    <h1 className="intro__hello">{introData.title}
-      <span className={isHovering ? "emoji wave-hand animated wave" : "emoji wave-hand animated"} onMouseOver={onMouseOver} onMouseOut={onMouseOut} onFocus={onMouseOver} onBlur={onMouseOut} role="button" tabIndex={0} aria-label="wave hand"></span>
-    </h1>
+  return <header className="intro_container">
+    <div className="intro">
+      <h1 className="intro__hello">{introData.title}
+        <span className={isHovering ? "emoji wave-hand animated wave" : "emoji wave-hand animated"} onMouseOver={onMouseOver} onMouseOut={onMouseOut} onFocus={onMouseOver} onBlur={onMouseOut} role="button" tabIndex={0} aria-label="wave hand"></span>
+      </h1>
 
-    <h2 className="intro__tagline">{introData.beforeName}
-      <span className="name">{introData.name}</span>{introData.afterName}
-      <span className="emoji technologist"></span>
-    </h2>
+      <h2 className="intro__tagline">{introData.beforeName}
+        <span className="name">{introData.name}</span>{"\n"}
+        {introData.afterName}
+        {/* <span className="emoji technologist"></span> */}
+      </h2>
 
-    <h3 className="intro__contact">
-      <span>{introData.contact}</span>
-      <span className="emoji pointer"></span>
-      <span>
-      <a href={introData.mailTo}
-         className="highlight-link">{introData.email}</a>
-    </span>
-    </h3>
+      <h3 className="intro__contact">
+        <span>{introData.contact}</span>
+        <span className="emoji pointer"></span>
+        <span>
+        <a href={introData.mailTo}
+          className="highlight-link">{introData.email}</a>
+      </span>
+      </h3>
+    </div>
+    <div className="intro_photo_container">
+      <img src={headshot} alt=""/> 
+    </div>
+    {/* <img src="../../img/pic.jpg" alt="" className="intro_photo"/> */}
   </header>
 };
 

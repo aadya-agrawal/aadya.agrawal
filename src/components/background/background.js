@@ -1,18 +1,18 @@
 import * as React from "react"
 
-
+// Maybe add professor names?
 const backgroundData = {
   title: "Background",
-  part1: "Currently, I serve as the Consulting Head of Engineering at ",
-  part2: "Talking Yak",
-  part2Href: "https://talkingyak.com/",
-  part3: " where I lead a team in developing innovative tech solutions.",
-  line2: "As a hands-on full-stack software engineer, I adeptly bridge the gap between backend and frontend teams, crafting robust architectures in the process. I consistently stay abreast of the latest developments in my field, diligently seeking opportunities to learn and explore emerging technologies.",
-  line3Part1: "When I'm not in front of a computer screen",
-  line3Part2: ", you'll likely find me engaging in a game of badminton, exploring new cuisines, or delving into spontaneous DIY projects—all of which I enjoy sharing on my ",
-  line3Part3: "YouTube channel",
-  line3Part3Href: "https://www.youtube.com/@kavindiy",
-  line3Part4: ".",
+  part1: "I'm currently doing my master's in Computer Science at the ",
+  part2: "University of Illinois at Urbana-Champaign",
+  part3: ", focusing on computer vision applications for sports analytics.",
+  line2Part1: "Before UIUC, I did my undergraduation in Mathematics and Computing at ",
+  line2Part2: "Indian Institute of Technology (IIT) Delhi",
+  line2Part3: ". I worked on a variety of projects ranging from predicting scene graphs for 3D point clouds of real-world traffic scenes to understanding human brain functions using IS-TSA on fMRI data. For more information, please check out my ",
+  line2Part4: "resume",
+  line2Part4Href: "https://drive.google.com/file/d/1wcPe8ujzBLD7G1yw-G1RT5sQJE1FGN8c/view?usp=sharing",
+  line2Part5: ".",
+  line3: "When I'm not in front of a computer screen, I'm probably watching sports, searching for new food spots, or crossing an item off my bucket list.",
 };
 const Background = () => (
   <section className="section background">
@@ -20,16 +20,18 @@ const Background = () => (
     <div className="section__content">
       <p>
         {backgroundData.part1}
-        <a className="underline-link" href={backgroundData.part2Href} target="_blank" rel="noreferrer">{backgroundData.part2}</a>
+        <strong>{backgroundData.part2}</strong>
         {backgroundData.part3}
       </p>
       <p>
-        {backgroundData.line2}
+        {backgroundData.line2Part1}
+        <strong>{backgroundData.line2Part2}</strong>
+        {backgroundData.line2Part3}
+        <a className="underline-link" href={backgroundData.line2Part4Href} target="_blank" rel="noreferrer">{backgroundData.line2Part4}</a>
+        {backgroundData.line2Part5}
       </p>
       <p>
-        <strong>{backgroundData.line3Part1}</strong>{backgroundData.line3Part2}
-        <a className="underline-link" href={backgroundData.line3Part3Href} target="_blank" rel="noreferrer">{backgroundData.line3Part3}</a>
-        {backgroundData.line3Part4}
+        {backgroundData.line3}
       </p>
     </div>
   </section>

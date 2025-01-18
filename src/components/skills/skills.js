@@ -2,14 +2,12 @@ import * as React from "react"
 import "./skills.scss"
 
 const skillsData = {
-  "languagesTitle": "Frontend",
-  "languages": ["Flutter", "Dart", "Android", "Kotlin"],
-  "frameworksTitle": "Backend",
-  "frameworks": ["Node.js", "Firebase", "Python", "Java - Spring"],
-  "toolsTitle": "Servers",
-  "tools": ["Scaling", "Serverless", "Microservice", "Monolith"],
-  "designTitle": "Cloud",
-  "design": ["Firebase", "Google Cloud", "AWS", "Digital Ocean"],
+  "languagesTitle": "Languages",
+  "languages": ["Python", "C++", "SQL", "JavaScript", "HTML/CSS", "Java"],
+  "frameworksTitle": "Frameworks",
+  "frameworks": ["PyTorch", "TensorFlow", "React", "Node", "Express"],
+  "toolsTitle": "Tools",
+  "tools": ["Bash", "Git", "MongoDB", "Jupyter", "Tableau"]
 }
 
 const Skills = () => (
@@ -33,12 +31,6 @@ const Skills = () => (
           <div className="skillz__category__label">{skillsData.toolsTitle}</div>
           <ul>
             {skillsData.tools.map((data) => <li className="skillz__category__item">{data}</li>)}
-          </ul>
-        </div>
-        <div className="skillz__category">
-          <div className="skillz__category__label">{skillsData.designTitle}</div>
-          <ul>
-            {skillsData.design.map((data) => <li className="skillz__category__item">{data}</li>)}
           </ul>
         </div>
       </div>
