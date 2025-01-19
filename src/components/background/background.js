@@ -10,7 +10,7 @@ const backgroundData = {
   line2Part2: "Indian Institute of Technology (IIT) Delhi",
   line2Part3: ". I worked on a variety of projects ranging from predicting scene graphs for 3D point clouds of real-world traffic scenes to understanding human brain functions using IS-TSA on fMRI data. For more information, please check out my ",
   line2Part4: "resume",
-  line2Part4Href: "https://drive.google.com/file/d/1wcPe8ujzBLD7G1yw-G1RT5sQJE1FGN8c/view?usp=sharing",
+  line2Part4Href: "https://drive.google.com/file/d/1A6-XwAsnDe-YBFwjZvR20qjY69yx58u8/view",
   line2Part5: ".",
   line3: "When I'm not in front of a computer screen, I'm probably watching sports, searching for new food spots, or crossing an item off my bucket list.",
 };

@@ -11,6 +11,9 @@ const introData = {
   contact: "Get in touch ",
   email: "aadyaa3@illinois.edu",
   mailTo: "mailto:aadyaa3@illinois.edu",
+  resume: "View my resume",
+  placeholder: "drive link",
+  resumeLink: "https://drive.google.com/file/d/1A6-XwAsnDe-YBFwjZvR20qjY69yx58u8/view?usp=sharing",
 };
 const Intro = () => {
   const [isHovering, setIsHovering] = React.useState(false);
@@ -49,7 +52,23 @@ const Intro = () => {
         <a href={introData.mailTo}
           className="highlight-link">{introData.email}</a>
       </span>
+      <br />
+      {/* {"\n"} */}
+      <span>{introData.resume}</span>
+        <span className="emoji pointer"></span>
+        <span>
+        <a href={introData.resumeLink}
+          className="highlight-link">{introData.placeholder}</a>
+      </span>
       </h3>
+      {/* <h3 className="intro__contact">
+        <span>{introData.resume}</span>
+        <span className="emoji pointer"></span>
+        <span>
+        <a href={introData.resumeLink}
+          className="highlight-link">{introData.placeholder}</a>
+      </span>
+      </h3> */}
     </div>
     <div className="intro_photo_container">
       <img src={headshot} alt=""/> 

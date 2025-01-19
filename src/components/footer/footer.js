@@ -7,6 +7,10 @@ const socialData = [
     "url": "mailto:aadyaa3@illinois.edu"
   },
   {
+    "title": "resume",
+    "url": "https://drive.google.com/file/d/1A6-XwAsnDe-YBFwjZvR20qjY69yx58u8/view"
+  },
+  {
     "title": "linkedin",
     "url": "https://www.linkedin.com/in/aadyaagrawal/"
   },
@@ -23,7 +27,7 @@ const Footer = () => (
       </div> */}
       <div className="bottom">
         <span>Aadya Agrawal</span>
-        <img className="emoji" src="./images/emojis/rockon.png" alt="emoji"/>
+        <img className="emoji" src="./images/emojis/technologist.png" alt="emoji"/>
           <span>2024</span>
       </div>
       <div className="bottom credits">

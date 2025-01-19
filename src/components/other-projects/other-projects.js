@@ -13,43 +13,36 @@ const otherProjectsData = [
       {"thing": "Contrastive Learning"},
     ]
   },
-  // {
-  //   "name": "Cricket Match Prediction",
-  //   "url": "https://github.com/aadya-agrawal/btp",
-  //   "description": "I Predicted ball-by-ball outcomes using previous match event data with regression and time-series neural networks Evaluated reliability of our model using betting odds, Pearson’s correlation coefficient, and dynamic time warping",
-  //   "used": [
-  //     {"thing": "Node.js"},
-  //     {"thing": "Firebase"},
-  //   ]
-  // },
-  // {
-  //   "name": "SGG",
-  //   "url": "https://github.com/aadya-agrawal/btp",
-  //   "description": "I developed a score prediction app for the IPL as a hobby project during the 2018 season. This app is available on both iOS and Android platforms. It allows users to make score predictions for IPL matches, adding an exciting and interactive element to the cricket-watching experience. <br> <a class='small' href='https://github.com/skavinvarnan/whistler-ios'>👨🏻‍💻Github Source Code👨🏻‍💻</a>",
-  //   "used": [
-  //     {"thing": "Node.js"},
-  //     {"thing": "Firebase"},
-  //   ]
-  // },
-  // {
-  //   "name": "ISTSA",
-  //   "url": "https://github.com/aadya-agrawal/btp",
-  //   "description": "I developed a score prediction app for the IPL as a hobby project during the 2018 season. This app is available on both iOS and Android platforms. It allows users to make score predictions for IPL matches, adding an exciting and interactive element to the cricket-watching experience. <br> <a class='small' href='https://github.com/skavinvarnan/whistler-ios'>👨🏻‍💻Github Source Code👨🏻‍💻</a>",
-  //   "used": [
-  //     {"thing": "Node.js"},
-  //     {"thing": "Firebase"},
-  //   ]
-  // },
-  // {
-  //   "name": "mix real",
-  //   "url": "https://github.com/aadya-agrawal/btp",
-  //   "description": "I developed a score prediction app for the IPL as a hobby project during the 2018 season. This app is available on both iOS and Android platforms. It allows users to make score predictions for IPL matches, adding an exciting and interactive element to the cricket-watching experience. <br> <a class='small' href='https://github.com/skavinvarnan/whistler-ios'>👨🏻‍💻Github Source Code👨🏻‍💻</a>",
-  //   "used": [
-  //     {"thing": "Node.js"},
-  //     {"thing": "Firebase"},
-  //   ]
-  // },
-
+  {
+    "name": "Cricket Match Prediction",
+    "url": "https://github.com/aadya-agrawal/btp",
+    "description": "I collected event data of 500+ cricket matches using web-scraping to predict ball-by-ball outcomes with regression and time-series neural networks. I evaluated the reliability of the prediction model using betting odds and Pearson's correlation coefficient. This project was a part of my Bachelor's Thesis at IIT Delhi.",
+    "used": [
+      {"thing": "Dynamic Time Warping"},
+      {"thing": "Monte Carlo Methods"},
+    ]
+  },
+  {
+    "name": "Scene Graph Prediction for 3D Point Clouds",
+    "url": "",
+    "description": "I designed a tool to predict scene graphs of LiDAR point clouds without ground truth semantic segmentation labels. We then used the graphs to generate new scenes with objects inserted at semantically coherent locations using conditional-VAE and GAN models.",
+    "used": [
+      {"thing": "PyTorch"},
+      {"thing": "Autoencoders"},
+      {"thing": "LiDAR"},
+      {"thing": "KITTI Data"},
+    ]
+  },
+  {
+    "name": "Exploring Human Brain Functions",
+    "url": "",
+    "description": "I improved the code pipeline for Prof. Rahul Garg's technique for Temporal Synchronization Analysis at IIT Delhi. We observed variation in BOLD signals using fMRI scans of participants in visual task-based experiments. I developed a technique that implements log-likelihood-based centroid search for K-Means clustering of brain regions to identify unconventional brain activity.",
+    "used": [  
+      {"thing": "Python OOP"},
+      {"thing": "fMRI Data"},
+      {"thing": "Clustering"},
+    ]
+  },
 ]
 
 const FeaturedProjects = () => (

@@ -7,7 +7,7 @@ const skillsData = {
   "frameworksTitle": "Frameworks",
   "frameworks": ["PyTorch", "TensorFlow", "React", "Node", "Express"],
   "toolsTitle": "Tools",
-  "tools": ["Bash", "Git", "MongoDB", "Jupyter", "Tableau"]
+  "tools": ["Bash", "Git", "MongoDB", "Jupyter", "CUDA"]
 }
 
 const Skills = () => (
