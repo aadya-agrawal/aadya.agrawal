@@ -15,7 +15,7 @@ const otherProjectsData = [
   },
   {
     "name": "Cricket Match Prediction",
-    "url": "https://github.com/aadya-agrawal/btp",
+    "url": "https://drive.google.com/file/d/1IKlbpKHhAZVP5KiSOLlWG3gyPmmkdmSz/view?usp=sharing",
     "description": "I collected event data of 500+ cricket matches using web-scraping to predict ball-by-ball outcomes with regression and time-series neural networks. I evaluated the reliability of the prediction model using betting odds and Pearson's correlation coefficient. This project was a part of my Bachelor's Thesis at IIT Delhi.",
     "used": [
       {"thing": "Dynamic Time Warping"},
@@ -35,7 +35,7 @@ const otherProjectsData = [
   },
   {
     "name": "Exploring Human Brain Functions",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1-Ks3z8gUxuuNfuXJRVRNB6vEn0Zjs8zH/view?usp=sharing",
     "description": "I improved the code pipeline for Prof. Rahul Garg's technique for Temporal Synchronization Analysis at IIT Delhi. We observed variation in BOLD signals using fMRI scans of participants in visual task-based experiments. I developed a technique that implements log-likelihood-based centroid search for K-Means clustering of brain regions to identify unconventional brain activity.",
     "used": [  
       {"thing": "Python OOP"},

@@ -13,7 +13,7 @@ const introData = {
   mailTo: "mailto:aadyaa3@illinois.edu",
   resume: "View my resume",
   placeholder: "drive link",
-  resumeLink: "https://drive.google.com/file/d/1A6-XwAsnDe-YBFwjZvR20qjY69yx58u8/view?usp=sharing",
+  resumeLink: "https://drive.google.com/file/d/1sIqlM_DhgVKCmesUEB3fLtVvBxtWNyAk/view?usp=sharing",
 };
 const Intro = () => {
   const [isHovering, setIsHovering] = React.useState(false);

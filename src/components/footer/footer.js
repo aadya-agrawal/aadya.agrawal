@@ -8,7 +8,7 @@ const socialData = [
   },
   {
     "title": "resume",
-    "url": "https://drive.google.com/file/d/1A6-XwAsnDe-YBFwjZvR20qjY69yx58u8/view"
+    "url": "https://drive.google.com/file/d/1sIqlM_DhgVKCmesUEB3fLtVvBxtWNyAk/view?usp=sharing"
   },
   {
     "title": "linkedin",
