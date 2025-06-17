@@ -4,40 +4,74 @@ import "./featured-projects.scss"
 const FeaturedProjects = () => (
   <section className="section featured-projects">
     <div className="section__title">Featured Projects</div>
-    <div className="section__content">
-      <div className="project blistabloc">
+    <div className="section__content">      
+      <div className="project mocap-video">
         <figure className="project__pic">
-          <a href="https://passkeynotes.com/" rel="noreferrer" target="_blank">
-            <img src="./images/featured/passkeynotes/frame.png" alt=""/>
-          </a>
+          <img src="/static/images/T2P_1.gif" alt="Predicting human motion" />
         </figure>
         <figcaption className="project__caption">
-          <div className="project__name">
-            <a href="https://passkeynotes.com/" rel="noreferrer" target="_blank">Passkey Notes</a>
-          </div>
-          <p>A Secure Notes taking app, which syncs data across all your devices and stores all the data with AES-256 encryption</p>
+          <div className="project__name">Modelling Human Interactions</div>
+          <p>I am developing a hierarchical attention-based diffusion transformer for multi-agent motion prediction. Current experiments outperform SOTA on long-term predictions and close-proximity handling. This video demonstrates the model's ability to accurately predict complex 3D human motion. The model's predictions are in color, and the ground truth is in black.</p>
         </figcaption>
       </div>
 
-      <div className="project screentime">
-        <figure className="project__pic phones">
-          <a href="https://play.google.com/store/apps/details?id=com.talkingyak.app" rel="noreferrer" target="_blank">
-            <div className="phone">
-              <img src="./images/featured/talkingyak/talkingyak_ss1.png" alt=""/>
-            </div>
-            <div className="phone">
-              <img src="./images/featured/talkingyak/talkingyak_ss2.png" alt=""/>
-            </div>
-            <div className="phone">
-              <img src="./images/featured/talkingyak/talkingyak_ss3.png" alt=""/>
-            </div>
-          </a>
+      <div className="project ev2-vs-ev6">
+        <figure className="project__pic">
+          <img src="/static/images/ev2_vs_ev6.gif" alt="Human brain responses" />
         </figure>
         <figcaption className="project__caption">
-          <div className="project__name">
-            <a href="https://play.google.com/store/apps/details?id=com.talkingyak.app" rel="noreferrer" target="_blank">Talking Yak</a>
-          </div>
-          <p>Talking Yak is an English learning app specifically created for Hindi and Tamil speakers.</p>
+          <div className="project__name">Exploring Unconventional Brain Responses</div>
+          <p>I developed a clustering algorithm for fMRI signals to identify patterns in the brain. The example shows the activation patterns in two settings (left and center), and their difference (right), in a visual task-based experiment where participants were asked to remember sequences of images. Note the difference in activation (yellow) and deactivation (blue) patterns.</p>
+        </figcaption>
+      </div>
+      
+      <div className="project scene-graph">
+        <figure className="project__pic">
+          <img src="/static/images/scene_graph_gif.gif" alt="Graph of a road scene" />
+        </figure>
+        <figcaption className="project__caption">
+          <div className="project__name">Synthetic Data Generation for Autonomous Vehicles</div>
+          <p>I created a tool to infer relational graph structures in LiDAR point clouds, which allows for structured generative modeling of realistic high-traffic scenes. This project involved using conditional-GANs to insert various objects into scenes to generate semantically valid training data.</p>
+        </figcaption>
+      </div>
+
+      <div className="project cricket-sim">
+        <figure className="project__pic">
+          <img src="/static/images/cricket_sim.png" alt="Cricket Simulation" />
+        </figure>
+        <figcaption className="project__caption">
+          <div className="project__name">T20 Cricket Simulation</div>
+          <p>Modeled ball-by-ball match outcomes using Monte Carlo simulation and a hierarchical empirical Bayes approach. The project boosted predictive accuracy by 8% using LSTMs for time-series event forecasting and validated model reliability using betting-market alignment as in the image.</p>
+        </figcaption>
+      </div>
+
+      <div className="project malware-detection">
+        <figure className="project__pic">
+          <img src="/static/images/malware_detection.png" alt="Malware Detection" />
+        </figure>
+        <figcaption className="project__caption">
+          <div className="project__name">Reliable Android Malware Detection</div>
+          <p>I designed a contrastive learning framework to identify key features for detecting malware in Android applications, achieving 94.8% accuracy. This project involved benchmarking the classifier's adversarial robustness and explainability to ensure its readiness for real-world deployment in enterprise settings.</p>
+        </figcaption>
+      </div>
+
+      <div className="project tug-interface">
+        <figure className="project__pic">
+          <img src="/static/images/TUG_interface.jpeg" alt="TUG Interface" />
+        </figure>
+        <figcaption className="project__caption">
+          <div className="project__name">Human Compatibility Prediction from Language Games</div>
+          <p>I built a full-stack word association game using React and Flask to predict interpersonal compatibility. By training a Siamese neural network, the model achieved 90.9% recall and an 83.3% F1 score on human-rated evaluations.</p>
+        </figcaption>
+      </div>
+
+      <div className="project playpal-home">
+        <figure className="project__pic">
+          <img src="/static/images/playpal_home.png" alt="PlayPal Home" />
+        </figure>
+        <figcaption className="project__caption">
+          <div className="project__name">Playpal: Workout Scheduling Platform</div>
+          <p>I developed a full-stack web application to connect users with nearby workout partners based on sport, schedule, and skill level. The platform features a REST API with Firebase authentication and a responsive, mobile-first design.</p>
         </figcaption>
       </div>
     </div>
