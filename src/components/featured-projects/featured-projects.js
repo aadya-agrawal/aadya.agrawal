@@ -1,5 +1,12 @@
 import * as React from "react"
 import "./featured-projects.scss"
+import mocapvid from "../../../static/images/T2P_1.gif"
+import ev2vs6 from "../../../static/images/ev2_vs_ev6.gif"
+import sceneGraphGif from "../../../static/images/scene_graph_gif.gif" 
+import cricketSim from "../../../static/images/cricket_sim.png"
+import malwareDetection from "../../../static/images/malware_detection.png"
+import tugInterface from "../../../static/images/TUG_interface.jpeg"
+import playpalHome from "../../../static/images/playpal_home.png"
 
 const FeaturedProjects = () => (
   <section className="section featured-projects">
@@ -7,7 +14,7 @@ const FeaturedProjects = () => (
     <div className="section__content">      
       <div className="project mocap-video">
         <figure className="project__pic">
-          <img src="/static/images/T2P_1.gif" alt="Predicting human motion" />
+          <img src={mocapvid} alt="Predicting human motion" />
         </figure>
         <figcaption className="project__caption">
           <div className="project__name">Modelling Human Interactions</div>
@@ -17,7 +24,7 @@ const FeaturedProjects = () => (
 
       <div className="project ev2-vs-ev6">
         <figure className="project__pic">
-          <img src="/static/images/ev2_vs_ev6.gif" alt="Human brain responses" />
+          <img src={ev2vs6} alt="Human brain responses" />
         </figure>
         <figcaption className="project__caption">
           <div className="project__name">Exploring Unconventional Brain Responses</div>
@@ -27,7 +34,7 @@ const FeaturedProjects = () => (
       
       <div className="project scene-graph">
         <figure className="project__pic">
-          <img src="/static/images/scene_graph_gif.gif" alt="Graph of a road scene" />
+          <img src={sceneGraphGif} alt="Graph of a road scene" />
         </figure>
         <figcaption className="project__caption">
           <div className="project__name">Synthetic Data Generation for Autonomous Vehicles</div>
@@ -37,7 +44,7 @@ const FeaturedProjects = () => (
 
       <div className="project cricket-sim">
         <figure className="project__pic">
-          <img src="/static/images/cricket_sim.png" alt="Cricket simulation" />
+          <img src={cricketSim} alt="Cricket simulation" />
         </figure>
         <figcaption className="project__caption">
           <div className="project__name">T20 Cricket Simulation</div>
@@ -47,7 +54,7 @@ const FeaturedProjects = () => (
 
       <div className="project malware-detection">
         <figure className="project__pic">
-          <img src="/static/images/malware_detection.png" alt="Malware detection" />
+          <img src={malwareDetection} alt="Malware detection" />
         </figure>
         <figcaption className="project__caption">
           <div className="project__name">Reliable Android Malware Detection</div>
@@ -57,7 +64,7 @@ const FeaturedProjects = () => (
 
       <div className="project tug-interface">
         <figure className="project__pic">
-          <img src="/static/images/TUG_interface.jpeg" alt="TUG app interface" />
+          <img src={tugInterface} alt="TUG app interface" />
         </figure>
         <figcaption className="project__caption">
           <div className="project__name">Human Compatibility Prediction from Language Games</div>
@@ -67,7 +74,7 @@ const FeaturedProjects = () => (
 
       <div className="project playpal-home">
         <figure className="project__pic">
-          <img src="/static/images/playpal_home.png" alt="PlayPal home" />
+          <img src={playpalHome} alt="PlayPal home" />
         </figure>
         <figcaption className="project__caption">
           <div className="project__name">Playpal: Workout Scheduling Platform</div>
