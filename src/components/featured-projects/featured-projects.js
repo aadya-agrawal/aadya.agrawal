@@ -7,7 +7,7 @@ const FeaturedProjects = () => (
     <div className="section__content">      
       <div className="project mocap-video">
         <figure className="project__pic">
-          <img src="../../img/T2P_1.gif" alt="Predicting human motion" />
+          <img src="/src/img/T2P_1.gif" alt="Predicting human motion" />
         </figure>
         <figcaption className="project__caption">
           <div className="project__name">Modelling Human Interactions</div>
@@ -17,7 +17,7 @@ const FeaturedProjects = () => (
 
       <div className="project ev2-vs-ev6">
         <figure className="project__pic">
-          <img src="../../img/ev2_vs_ev6.gif" alt="Human brain responses" />
+          <img src="/src/img/ev2_vs_ev6.gif" alt="Human brain responses" />
         </figure>
         <figcaption className="project__caption">
           <div className="project__name">Exploring Unconventional Brain Responses</div>
@@ -27,7 +27,7 @@ const FeaturedProjects = () => (
       
       <div className="project scene-graph">
         <figure className="project__pic">
-          <img src="../../img/scene_graph_gif.gif" alt="Graph of a road scene" />
+          <img src="/src/img/scene_graph_gif.gif" alt="Graph of a road scene" />
         </figure>
         <figcaption className="project__caption">
           <div className="project__name">Synthetic Data Generation for Autonomous Vehicles</div>
@@ -37,7 +37,7 @@ const FeaturedProjects = () => (
 
       <div className="project cricket-sim">
         <figure className="project__pic">
-          <img src="../../img/cricket_sim.png" alt="Cricket Simulation" />
+          <img src="/src/img/cricket_sim.png" alt="Cricket simulation" />
         </figure>
         <figcaption className="project__caption">
           <div className="project__name">T20 Cricket Simulation</div>
@@ -47,7 +47,7 @@ const FeaturedProjects = () => (
 
       <div className="project malware-detection">
         <figure className="project__pic">
-          <img src="../../img/malware_detection.png" alt="Malware Detection" />
+          <img src="/src/img/malware_detection.png" alt="Malware detection" />
         </figure>
         <figcaption className="project__caption">
           <div className="project__name">Reliable Android Malware Detection</div>
@@ -57,7 +57,7 @@ const FeaturedProjects = () => (
 
       <div className="project tug-interface">
         <figure className="project__pic">
-          <img src="../../img/TUG_interface.jpeg" alt="TUG Interface" />
+          <img src="/src/img/TUG_interface.jpeg" alt="TUG app interface" />
         </figure>
         <figcaption className="project__caption">
           <div className="project__name">Human Compatibility Prediction from Language Games</div>
@@ -67,7 +67,7 @@ const FeaturedProjects = () => (
 
       <div className="project playpal-home">
         <figure className="project__pic">
-          <img src="../../img/playpal_home.png" alt="PlayPal Home" />
+          <img src="/src/img/playpal_home.png" alt="PlayPal Home" />
         </figure>
         <figcaption className="project__caption">
           <div className="project__name">Playpal: Workout Scheduling Platform</div>
