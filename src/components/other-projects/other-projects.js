@@ -46,17 +46,20 @@ const otherProjectsData = [
   {
     "name": "Permutation Equivariant Set Generation with Flow-Matching",
     "url": "",
-    "description": "I developed a scalable autoencoder utilizing hierarchical variational flow-matching for high-fidelity set generation. This project outperformed diffusion and flow baselines in terms of large-sample fidelity and diversity, and introduced an efficient, permutation-equivariant sampling pipeline without relying on domain-specific neural architectures."
+    "description": "I developed a scalable autoencoder utilizing hierarchical variational flow-matching for high-fidelity set generation. This project outperformed diffusion and flow baselines in terms of large-sample fidelity and diversity, and introduced an efficient, permutation-equivariant sampling pipeline without relying on domain-specific neural architectures.",
+    "used": []
   },
   {
     "name": "Analyzing Passing in Soccer",
     "url": "",
     "description": "I created a data-driven measure of defensive pressure using player tracking and event data from Eurocup 2020 for the Women in Sports Data Symposium in 2022. This work included developing intuitive pitch maps and heatmaps to visualize spatial trends and player behavior under pressure, and building a composite metric to evaluate pass quality based on accuracy, progression, and tactical impact.",
+    "used": []
   },
   {
     "name": "Strategic Interaction and Networked Negotiation",
     "url": "",
-    "description": "I wrote a survey exploring the influence of social network structure and game theory on negotiation within multi-agent systems. The paper analyzed models of stubborn agents, cooperative value-sharing, and social strategies across evolving networks, proposing a strategic framework applicable to logistics, finance, and large-scale operations."
+    "description": "I wrote a survey exploring the influence of social network structure and game theory on negotiation within multi-agent systems. The paper analyzed models of stubborn agents, cooperative value-sharing, and social strategies across evolving networks, proposing a strategic framework applicable to logistics, finance, and large-scale operations.",
+    "used": []
   },
 ]
 
